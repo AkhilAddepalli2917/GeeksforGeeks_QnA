@@ -1,0 +1,31 @@
+Given an array arr of size n. You need to reverse the array.
+
+Example 1:
+
+Input:
+n = 5
+arr[] = {1 1 2 2 3}
+Output: 3 2 2 1 1
+Example 2:
+
+Input:
+n = 2
+arr[] = {4 2}
+Output: 2 4
+Your Task:
+You just need to complete the function reverseArray() that takes arr and n as parameters and reverses arr. The driver code then prints arr.
+
+Expected Time Complexity: O(n).
+Expected Auxiliary Space: O(1).
+
+Constraints:
+1 <= n  <= 10^6
+1 <= arr[i] <= 10^6
+
+
+----------------------------------------------------Solution------------------------------------------------------
+
+def reverseArray(arr,n):
+    
+    #code here
+    arr[:] = arr[::-1]
